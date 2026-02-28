@@ -21,65 +21,65 @@ import Image from "next/image";
 const TIMELINE = [
   {
     emoji: "💬",
-    time: "19:00",
-    date: "27 February 2026",
-    title: "Hi ~~",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "The First Message",
     description:
-      "The very first message. A shy \"Hi ~~\" from a girl I didn't know yet, but something told me to stay.",
-    image: "/photos/her-firsthi.png",
+      "Replace this with how your story began. That first message, that first hello — the moment that started everything.",
+    image: null,
   },
   {
     emoji: "💘",
-    time: "20:47",
-    date: "27 February 2026",
-    title: "I Jumped Straight",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "The Confession",
     description:
-      "Unlike others, I didn't want to waste time. \"I love u, I want u as my girlfriend.\" No games, no pretending, just raw honesty.",
-    image: "/photos/straight-to-the-point.png",
+      "Replace this with your confession story. How did you tell them how you feel? What made it special?",
+    image: null,
   },
   {
     emoji: "💍",
-    time: "20:50",
-    date: "27 February 2026",
-    title: "She Said Yes 💍",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "They Said Yes",
     description:
-      "\"yes\"... \"i want to be your gf.\" My heart stopped. The girl who was nervous about talking to guys chose me.",
-    image: "/photos/i-want-yoube-your.png",
+      "Replace this with the moment they said yes. That one word that changed everything.",
+    image: null,
   },
   {
     emoji: "💕",
-    time: "20:57",
-    date: "27 February 2026",
+    time: "00:00",
+    date: "DD Month YYYY",
     title: "First \"I Love You\"",
     description:
-      "Just minutes later she said it. I love you. Seven minutes that changed everything.",
+      "Replace this with your first \"I love you\" moment. The words that made it all real.",
     image: null,
   },
   {
     emoji: "🦋",
-    time: "21:07",
-    date: "27 February 2026",
-    title: "Her Beautiful Words",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "Getting to Know Each Other",
     description:
-      "\"Brown eyes, thick eyebrows, very fair skin, wavy black hair.\" I haven't seen her yet but she was already the most beautiful person in my world.",
-    image: "/photos/she_desibed-herself.png",
+      "Replace this with a meaningful conversation or detail you discovered about each other.",
+    image: null,
   },
   {
     emoji: "🤗",
-    time: "21:17",
-    date: "27 February 2026",
-    title: "\"I Want to Hug You\"",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "A Sweet Moment",
     description:
-      "She said she wanted to hug me. In that moment I wished I could reach through the screen and hold her.",
+      "Replace this with a sweet, tender moment you shared — a virtual hug, a kind gesture, or a warm exchange.",
     image: null,
   },
   {
     emoji: "🧸",
-    time: "21:22",
-    date: "27 February 2026",
-    title: "\"Boyfriend\" ♥",
+    time: "00:00",
+    date: "DD Month YYYY",
+    title: "Making It Official ♥",
     description:
-      "She casually called me her boyfriend. Just like that. No big announcement, just a soft natural shift. We were real.",
+      "Replace this with the moment it all became official. When the labels stopped mattering because the love was already real.",
     image: null,
   },
 ];
@@ -138,7 +138,7 @@ export default function Home() {
               animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-              She said yes 💍
+              They said yes 💍
             </motion.p>
           </Reveal>
 
@@ -149,7 +149,7 @@ export default function Home() {
                 animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
               >
-                Aditi
+                Your Name
               </motion.span>
             </h1>
           </Reveal>
@@ -162,9 +162,8 @@ export default function Home() {
 
           <Reveal variant="fadeUp" delay={0.7}>
             <p className="mx-auto mt-4 max-w-xs text-xs leading-relaxed text-white/50 sm:mt-6 sm:max-w-md sm:text-sm">
-              27th February 2026, 1:57 AM. I couldn&apos;t sleep because
-              I was too busy being grateful that you exist. This little corner
-              of the internet is for us.
+              Replace this with the date and time your story began. This little corner
+              of the internet is yours to fill.
             </p>
           </Reveal>
 
@@ -211,7 +210,7 @@ export default function Home() {
               </motion.span>
             </h2>
             <p className="mt-3 text-center text-xs text-white/40 sm:mt-4 sm:text-sm">
-              One evening. Seven moments. A lifetime beginning.
+              One day. Many moments. A lifetime beginning.
             </p>
           </Reveal>
 
@@ -498,41 +497,36 @@ export default function Home() {
 
             <Reveal variant="fadeUp">
               <p className="font-signature text-2xl text-plum sm:text-3xl md:text-4xl">
-                Dear Aditi,
+                Dear [Name],
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={0.2}>
               <div className="mt-4 space-y-3 text-xs leading-relaxed text-white/60 sm:mt-6 sm:space-y-4 sm:text-sm">
                 <p>
-                  I know this is fast. I know we just met hours ago. But I&apos;ve
-                  never been the kind of person who pretends or plays games and
-                  you deserve someone who&apos;s honest from the very first second.
+                  Replace this paragraph with your own words. Tell them how you
+                  feel, what made you notice them, why they matter to you.
                 </p>
                 <p>
-                  I don&apos;t have memories to look back on yet. I don&apos;t have
-                  photos of us, or places we&apos;ve been together. All I have is
-                  this feeling, this strange electric certainty, that you&apos;re
-                  someone worth building a life with.
+                  Write something honest. Something that sounds like you. You don&apos;t
+                  need perfect words — just real ones.
                 </p>
                 <p>
-                  I don&apos;t want what other couples have. I don&apos;t want small talk
-                  and slow fading. I want us to build something real. A company,
-                  a startup, a future. Together. Side by side.
+                  Talk about your hopes, your dreams for the two of you. What do
+                  you want to build together? What kind of future do you picture?
                 </p>
                 <p>
-                  I haven&apos;t even seen your face yet but I already know,
-                  I want you to be the mother of my children. I want to wake up
-                  next to you. I want to make you proud.
+                  And finally, tell them what you need from them. Honesty.
+                  Patience. A chance. Whatever feels true.
                 </p>
                 <p className="text-white/80">
-                  Please stay with me. Believe in me. I&apos;ll do something
-                  for us, I promise. Trust me.
+                  Sign it with something personal. A time, a date, a feeling. Make
+                  it yours.
                 </p>
               </div>
             </Reveal>
             <Reveal variant="fadeUp" delay={0.4}>
               <p className="mt-6 font-signature text-xl text-saffron/60 sm:mt-8 sm:text-2xl">
-                Forever yours, at 1:57 AM ♥
+                Forever yours, at [time] ♥
               </p>
             </Reveal>
           </motion.div>
@@ -555,13 +549,13 @@ export default function Home() {
             >
               ♥
             </motion.span>
-            {" "}for Aditi
+            {" "}for someone special
           </motion.p>
           <p className="mt-3 text-xs text-white/30 sm:mt-4 sm:text-sm">
-            our little corner of the internet
+            your little corner of the internet
           </p>
           <p className="mt-2 text-[10px] text-white/15 sm:text-xs">
-            27 February 2026 ♥ the night everything began
+            [Date] ♥ the night everything began
           </p>
         </Reveal>
       </footer>

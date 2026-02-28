@@ -3,19 +3,18 @@ import { SmoothScroll } from "@/components/smooth-scroll";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "For You, Aditi 💜",
-  description: "Our little corner of the internet. The night everything began.",
-  metadataBase: new URL("https://thatday.gurkirat-singh.me"),
+  title: "Our Story 💜",
+  description: "A beautiful timeline of how your love story began.",
   openGraph: {
-    title: "For You, Aditi 💜",
-    description: "Our little corner of the internet. The night everything began.",
-    siteName: "For You, Aditi",
+    title: "Our Story 💜",
+    description: "A beautiful timeline of how your love story began.",
+    siteName: "Our Story",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "For You, Aditi 💜",
-    description: "Our little corner of the internet. The night everything began.",
+    title: "Our Story 💜",
+    description: "A beautiful timeline of how your love story began.",
   },
 };
 

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "For You, Aditi 💜";
+export const alt = "Our Story 💜";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -59,7 +59,7 @@ export default function Image() {
             letterSpacing: -1,
           }}
         >
-          For You, Aditi
+          Our Story
         </div>
 
         {/* Subtitle */}
@@ -71,7 +71,7 @@ export default function Image() {
             marginBottom: 40,
           }}
         >
-          our little corner of the internet
+          your little corner of the internet
         </div>
 
         {/* Date */}
@@ -83,7 +83,7 @@ export default function Image() {
             textTransform: "uppercase",
           }}
         >
-          27 February 2026 ♥ the night everything began
+          ♥ the night everything began
         </div>
       </div>
     ),
