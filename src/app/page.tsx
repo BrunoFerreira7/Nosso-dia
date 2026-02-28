@@ -35,7 +35,7 @@ const TIMELINE: TimelineItem[] = [
     date: "DD Month YYYY",
     title: "The First Message",
     description:
-      "Replace this with how your story began. That first message, that first hello — the moment that started everything.",
+      "Replace this with how your story began. That first message, that first hello - the moment that started everything.",
     image: null,
   },
   {
@@ -80,7 +80,7 @@ const TIMELINE: TimelineItem[] = [
     date: "DD Month YYYY",
     title: "A Sweet Moment",
     description:
-      "Replace this with a sweet, tender moment you shared — a virtual hug, a kind gesture, or a warm exchange.",
+      "Replace this with a sweet, tender moment you shared - a virtual hug, a kind gesture, or a warm exchange.",
     image: null,
   },
   {
@@ -229,7 +229,7 @@ export default function Home() {
             {/* Vertical line — desktop only */}
             <motion.div
               className="absolute left-1/2 top-0 hidden h-full w-px sm:block"
-              style={{ background: "linear-gradient(to bottom, rgba(99,29,118,0.6), rgba(255,170,234,0.3), transparent)" }}
+              style={{ background: "linear-gradient(to bottom, rgba(99,29,118,0.6), rgba(255,170,234,0.3), transparent)", transformOrigin: "top" }}
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
               viewport={{ once: true }}
@@ -246,7 +246,7 @@ export default function Home() {
                   }`}
                 >
                   {/* Dot on timeline — desktop only */}
-                  <div className="absolute left-1/2 z-10 hidden h-4 w-4 -translate-x-1/2 items-center justify-center sm:flex">
+                  <div className="absolute left-1/2 top-6 z-10 hidden h-4 w-4 -translate-x-1/2 -translate-y-1/2 items-center justify-center sm:flex">
                     <motion.span
                       className="absolute h-4 w-4 rounded-full border-2 border-orchid bg-[#0e0b16]"
                       whileInView={{ scale: [0, 1.2, 1] }}
@@ -518,7 +518,7 @@ export default function Home() {
                 </p>
                 <p>
                   Write something honest. Something that sounds like you. You don&apos;t
-                  need perfect words — just real ones.
+                  need perfect words - just real ones.
                 </p>
                 <p>
                   Talk about your hopes, your dreams for the two of you. What do
