@@ -18,7 +18,17 @@ import Image from "next/image";
   ║  Change title, time, date, description freely.  ║
   ╚══════════════════════════════════════════════════╝
 */
-const TIMELINE = [
+
+interface TimelineItem {
+  emoji: string;
+  time: string;
+  date: string;
+  title: string;
+  description: string;
+  image: string | null;
+}
+
+const TIMELINE: TimelineItem[] = [
   {
     emoji: "💬",
     time: "00:00",
