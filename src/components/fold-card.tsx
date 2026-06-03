@@ -39,9 +39,11 @@ export function FoldCard({ children, className = "", index = 0 }: FoldCardProps)
 export function FoldSection({
   children,
   className = "",
+  id,
 }: {
   children: React.ReactNode;
   className?: string;
+  id?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -54,7 +56,7 @@ export function FoldSection({
   const y = useTransform(scrollYProgress, [0, 0.5], [20, 0]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} id={id}>
       <motion.div
         style={{ opacity, y }}
         className={className}

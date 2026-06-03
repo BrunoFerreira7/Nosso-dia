@@ -5,19 +5,19 @@ import "./globals.css";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
-  title: "Our Love Story",
-  description: "A beautiful timeline of how our love story began.",
+  title: "Happy 23rd Birthday Anu!",
+  description: "A birthday celebration page for Anu's 23rd birthday.",
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "Our Love Story",
-    description: "A beautiful timeline of how our love story began.",
-    siteName: "Our Love Story",
+    title: "Happy 23rd Birthday Anu!",
+    description: "A birthday celebration page for Anu's 23rd birthday.",
+    siteName: "Happy Birthday Anu",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Love Story",
-    description: "A beautiful timeline of how our love story began.",
+    title: "Happy 23rd Birthday Anu!",
+    description: "A birthday celebration page for Anu's 23rd birthday.",
   },
 };
 
