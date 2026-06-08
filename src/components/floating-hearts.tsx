@@ -22,7 +22,7 @@ type Twinkle = {
   size: number;
 };
 
-const SYMBOLS = ["✦", "🎈", "🎉", "✧", "⋆", "✨", "🎂", "🎊", "❋"];
+const SYMBOLS = ["♥", "✦", "♡", "❋", "✧", "⋆", "❤", "✿", "❥"];
 const COLORS = [
   "text-plum/15",
   "text-orchid/12",

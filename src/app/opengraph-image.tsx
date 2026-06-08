@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Happy 23rd Birthday Anu 🎂";
+export const alt = "Our Story 💜";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -44,13 +44,13 @@ export default function Image() {
           }}
         />
 
-        {/* Cake */}
-        <div style={{ fontSize: 80, marginBottom: 20 }}>🎂</div>
+        {/* Heart */}
+        <div style={{ fontSize: 80, marginBottom: 20 }}>💜</div>
 
         {/* Title */}
         <div
           style={{
-            fontSize: 56,
+            fontSize: 64,
             fontWeight: 700,
             background: "linear-gradient(to right, #FFAAEA, #EAC435, #98C1D9)",
             backgroundClip: "text",
@@ -59,19 +59,19 @@ export default function Image() {
             letterSpacing: -1,
           }}
         >
-          Happy 23rd Birthday!
+          Our Story
         </div>
 
-        {/* Name */}
+        {/* Subtitle */}
         <div
           style={{
-            fontSize: 36,
-            color: "rgba(255,255,255,0.5)",
+            fontSize: 28,
+            color: "rgba(255,255,255,0.4)",
             fontStyle: "italic",
             marginBottom: 40,
           }}
         >
-          Anu - 23 and glowing ✨
+          your little corner of the internet
         </div>
 
         {/* Date */}
@@ -83,7 +83,7 @@ export default function Image() {
             textTransform: "uppercase",
           }}
         >
-          03 June 2026 🎂 celebrate the light you are
+          ♥ the night everything began
         </div>
       </div>
     ),
