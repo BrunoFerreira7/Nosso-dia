@@ -7,6 +7,7 @@ import { FloatingHearts } from "@/components/floating-hearts";
 import { SectionDivider } from "@/components/section-divider";
 import { FoldCard, FoldSection } from "@/components/fold-card";
 import { ImageModal } from "@/components/image-modal";
+import {BackgroundMusic} from "@/components/background-music";
 import Image from "next/image";
 
 
@@ -31,69 +32,56 @@ interface TimelineItem {
 const TIMELINE: TimelineItem[] = [
   {
     emoji: "💬",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "The First Message",
+    date: "17/05/2026",
+    title: "Nossa primeira mensagem",
     description:
-      "Replace this with how your story began. That first message, that first hello - the moment that started everything.",
+      "Nesse dia conheci uma garota gentil, interessante, alegre e divertida! Mal sabia, mas ela era o amor da minha vida 🥰.",
     image: null,
   },
   {
     emoji: "💘",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "The Confession",
+    date: "31/05/2026",
+    title: "O primeiro date",
     description:
-      "Replace this with your confession story. How did you tell them how you feel? What made it special?",
+      "Foi nesse dia que eu notei que aquela garota que eu conheci, era meu grande amor! Voltei pra casa completamente apaixonado e pulando de alegria",
     image: null,
   },
   {
-    emoji: "💍",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "They Said Yes",
+    emoji: "💋",
+    date: "31/05/2026",
+    title: "Nosso primeiro beijo",
     description:
-      "Replace this with the moment they said yes. That one word that changed everything.",
+      "Foi nesse dia que nos beijamos pela primeira vez! FOi incrível, ainda tomamos uma açaí delicioso juntos.",
     image: null,
   },
   {
     emoji: "💕",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "First \"I Love You\"",
+    date: "12/06/2026",
+    title: "Dia dos namorados",
     description:
-      "Replace this with your first \"I love you\" moment. The words that made it all real.",
+      "Passamos nosso primeiro dia dos namorados juntos! Amei seus presentes e guardo sua cartinha com muito carinho.",
     image: null,
   },
   {
-    emoji: "🦋",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "Getting to Know Each Other",
+    emoji: "💍",
+    date: "26/07/2026",
+    title: "O grande dia do pedido",
     description:
-      "Replace this with a meaningful conversation or detail you discovered about each other.",
-    image: null,
-  },
-  {
-    emoji: "🤗",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "A Sweet Moment",
-    description:
-      "Replace this with a sweet, tender moment you shared - a virtual hug, a kind gesture, or a warm exchange.",
-    image: null,
-  },
-  {
-    emoji: "🧸",
-    time: "00:00",
-    date: "DD Month YYYY",
-    title: "Making It Official ♥",
-    description:
-      "Replace this with the moment it all became official. When the labels stopped mattering because the love was already real.",
+      "O dia do seu sim! O melhor domingo da minha vida e o dia em que fui o homem mais feliz do mundo!",
     image: null,
   },
 ];
 
+const HERO_PHOTOS = [
+  "/imgs/1.jpeg",
+  "/imgs/2.jpeg",
+  "/imgs/3.jpeg",
+  "/imgs/4.jpeg",
+  "/imgs/5.jpeg",
+  "/imgs/6.jpeg",
+  "/imgs/7.jpeg",
+  "/imgs/8.jpeg",
+];
 /*
   ╔══════════════════════════════════════════════════╗
   ║  ✏️  EDIT YOUR "YOU & ME" WORDS HERE            ║
@@ -125,6 +113,7 @@ export default function Home() {
   return (
     <main className="relative overflow-x-hidden">
       <FloatingHearts />
+      <BackgroundMusic />
 
       {/* ═══════════ HERO ═══════════ */}
       <section
@@ -148,10 +137,9 @@ export default function Home() {
               animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-              They said yes 💍
+              1 mês da gente! 💍
             </motion.p>
           </Reveal>
-
           <Reveal variant="scaleUp" delay={0.2} duration={1}>
             <h1 className="mt-4 font-display text-5xl leading-tight tracking-tight sm:mt-6 sm:text-8xl md:text-9xl">
               <motion.span
@@ -159,21 +147,20 @@ export default function Home() {
                 animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
               >
-                Your Name
+                Para a razão do meu viver!
               </motion.span>
             </h1>
           </Reveal>
 
           <Reveal variant="blur" delay={0.5}>
             <p className="mx-auto mt-4 max-w-sm font-signature text-xl text-plum/70 sm:mt-6 sm:max-w-lg sm:text-2xl md:text-3xl">
-              my forever, my everything
+              26/07/2026
             </p>
           </Reveal>
 
           <Reveal variant="fadeUp" delay={0.7}>
             <p className="mx-auto mt-4 max-w-xs text-xs leading-relaxed text-white/50 sm:mt-6 sm:max-w-md sm:text-sm">
-              Replace this with the date and time your story began. This little corner
-              of the internet is yours to fill.
+            Que esse nosso dia seja repleto de amor! ❤️
             </p>
           </Reveal>
 
@@ -184,7 +171,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Our Story
+              Nossa História
               <motion.span
                 animate={{ y: [0, 6, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
@@ -216,11 +203,11 @@ export default function Home() {
                   paddingBottom: 4,
                 }}
               >
-                Our Story
+                Nosso Amor
               </motion.span>
             </h2>
             <p className="mt-3 text-center text-xs text-white/40 sm:mt-4 sm:text-sm">
-              One day. Many moments. A lifetime beginning.
+                Nossos primeiros momentos mais marcantes!
             </p>
           </Reveal>
 
@@ -399,14 +386,14 @@ export default function Home() {
                   paddingBottom: 4,
                 }}
               >
-                You & Me
+                Gustavo 💍 Leticia
               </motion.span>
             </h2>
           </Reveal>
 
           <Reveal variant="fadeUp" delay={0.15}>
             <p className="mt-4 font-signature text-lg text-white/30 sm:mt-5 sm:text-xl">
-              this is just the beginning
+              Isso é apenas o começo!
             </p>
           </Reveal>
 
@@ -414,10 +401,8 @@ export default function Home() {
           <Reveal variant="fadeUp" delay={0.3}>
             <div className="mt-8 space-y-3 sm:mt-10 sm:space-y-4">
               <p className="text-sm leading-relaxed text-white/50 sm:text-base">
-                I don&apos;t know what tomorrow looks like,
               </p>
               <p className="text-sm leading-relaxed text-white/50 sm:text-base">
-                but I know who I want next to me when it comes.
               </p>
               <motion.p
                 className="pt-2 font-signature text-lg text-plum/60 sm:text-xl"
@@ -425,7 +410,7 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ duration: 1.2, delay: 0.8 }}
               >
-                it&apos;s you. it was always you.
+                Vou estar com você pra toda a vida.
               </motion.p>
             </div>
           </Reveal>
@@ -441,7 +426,7 @@ export default function Home() {
                 ✦
               </motion.span>
               <span className="text-xs tracking-widest text-white/40 uppercase sm:text-sm">
-                Day 1 of Forever
+                1 mês de namoro
               </span>
               <motion.span
                 className="text-sm text-saffron/70 sm:text-base"
@@ -454,7 +439,33 @@ export default function Home() {
           </Reveal>
         </div>
       </FoldSection>
-
+        <Reveal variant="fadeUp" delay={0.1} duration={0.8}>
+          <div className="mx-auto mt-6 grid max-w-[280px] grid-cols-2 gap-3 sm:mt-8 sm:max-w-md sm:gap-4 md:max-w-lg">
+            {HERO_PHOTOS.map((src, i) => (
+              <motion.button
+                key={src}
+                type="button"
+                onClick={() => setModalImage({ src, alt: `Nós ${i + 1}` })}
+                className="group relative aspect-square overflow-hidden rounded-xl border border-white/10 sm:rounded-2xl"
+                initial={{ opacity: 0, scale: 0.8, rotate: i % 2 === 0 ? -4 : 4 }}
+                whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.06, ease: "easeOut" }}
+                whileHover={{ scale: 1.08, zIndex: 10 }}
+                whileTap={{ scale: 0.94 }}
+              >
+                <Image
+                  src={src}
+                  alt={`Nós ${i + 1}`}
+                  fill
+                  sizes="(max-width: 640px) 40vw, 220px"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              </motion.button>
+            ))}
+          </div>
+        </Reveal>
       <SectionDivider />
 
       {/* ═══════════ LETTER — folds open ═══════════ */}
@@ -507,36 +518,29 @@ export default function Home() {
 
             <Reveal variant="fadeUp">
               <p className="font-signature text-2xl text-plum sm:text-3xl md:text-4xl">
-                Dear [Name],
+                Meu amor,
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={0.2}>
               <div className="mt-4 space-y-3 text-xs leading-relaxed text-white/60 sm:mt-6 sm:space-y-4 sm:text-sm">
                 <p>
-                  Replace this paragraph with your own words. Tell them how you
-                  feel, what made you notice them, why they matter to you.
+                  Obrigado por ser a melhor namorada do mundo! ❤️❤️❤️
                 </p>
                 <p>
-                  Write something honest. Something that sounds like you. You don&apos;t
-                  need perfect words - just real ones.
+                  Sou grato a Deus por ter uma companheira incrível como você ao meu lado,
+                  é uma horna poder te chamar de amor ou de vida!
                 </p>
                 <p>
-                  Talk about your hopes, your dreams for the two of you. What do
-                  you want to build together? What kind of future do you picture?
-                </p>
-                <p>
-                  And finally, tell them what you need from them. Honesty.
-                  Patience. A chance. Whatever feels true.
+                  Você é realmente a perfeição! Uma garota linda em todos os aspectos, te admiro muito.
                 </p>
                 <p className="text-white/80">
-                  Sign it with something personal. A time, a date, a feeling. Make
-                  it yours.
+                  Você é o grande amor da minha vida! ❤️❤️❤️
                 </p>
               </div>
             </Reveal>
             <Reveal variant="fadeUp" delay={0.4}>
               <p className="mt-6 font-signature text-xl text-saffron/60 sm:mt-8 sm:text-2xl">
-                Forever yours, at [time] ♥
+                Feliz dia, minha princesa! ❤️🥰
               </p>
             </Reveal>
           </motion.div>
@@ -551,7 +555,7 @@ export default function Home() {
             whileInView={{ scale: [0.9, 1] }}
             viewport={{ once: true }}
           >
-            Made with{" "}
+            Feito para a minha lelê {" "}
             <motion.span
               className="inline-block text-tomato/60"
               animate={{ scale: [1, 1.3, 1] }}
@@ -559,13 +563,12 @@ export default function Home() {
             >
               ♥
             </motion.span>
-            {" "}for someone special
+            {" "}
           </motion.p>
           <p className="mt-3 text-xs text-white/30 sm:mt-4 sm:text-sm">
-            your little corner of the internet
+            EU TE AMOOO MUITOOOOO 💍❤️💍
           </p>
           <p className="mt-2 text-[10px] text-white/15 sm:text-xs">
-            [Date] ♥ the night everything began
           </p>
         </Reveal>
       </footer>
