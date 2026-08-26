@@ -22,7 +22,6 @@ import Image from "next/image";
 
 interface TimelineItem {
   emoji: string;
-  time: string;
   date: string;
   title: string;
   description: string;
@@ -270,9 +269,6 @@ export default function Home() {
                           {item.emoji}
                         </motion.span>
                         <div className="flex items-center gap-2">
-                          <time className="text-[10px] font-medium tracking-wider text-saffron/70 uppercase sm:text-xs">
-                            {item.time}
-                          </time>
                           <span className="text-[9px] text-white/20 sm:text-[10px]">•</span>
                           <span className="text-[9px] text-white/25 sm:text-[10px]">
                             {item.date}
