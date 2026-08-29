@@ -32,54 +32,131 @@ const TIMELINE: TimelineItem[] = [
   {
     emoji: "💬",
     date: "17/05/2026",
-    title: "Nossa primeira mensagem",
+    title: "Nossa primeiro beijo no centro",
     description:
-      "Nesse dia conheci uma garota gentil, interessante, alegre e divertida! Mal sabia, mas ela era o amor da minha vida 🥰.",
+      "O nosso primeiro beijo carrega a magia dos recomeços. Naquele dia no centro, depois de conversarmos e nos entendermos, o tempo pareceu congelar só para nós dois. Quando nossos lábios se tocaram, o barulho da rua sumiu, tudo parou e o primeiro capítulo da nossa história realmente começou. A gente ainda não sabia que aquele beijo nos traria tão longe, mas foi ele a semente desse amor gigante que dividimos hoje.🥰.",
     image: null,
   },
   {
     emoji: "💘",
-    date: "31/05/2026",
+    date: "10/04/2026",
     title: "O primeiro date",
     description:
-      "Foi nesse dia que eu notei que aquela garota que eu conheci, era meu grande amor! Voltei pra casa completamente apaixonado e pulando de alegria",
-    image: null,
+      "Nosso primeiro date oficial não poderia ter acontecido em uma data mais especial: o seu aniversário! Lembro como se fosse hoje do brilho nos seus olhos e de ver você toda felizona ganhando aquele relógio de presente. Ver a sua alegria naquele dia encheu meu coração e me deu a certeza de que eu queria arrancar esses sorrisos de você para o resto da vida. Ali, enquanto comemorávamos a sua vida, começamos a construir a nossa juntos.",
+    image: "/imgs/niver.jpeg",
   },
   {
     emoji: "💋",
-    date: "31/05/2026",
-    title: "Nosso primeiro beijo",
+    date: "16/04/2026",
+    title: "Açai da baixada",
     description:
-      "Foi nesse dia que nos beijamos pela primeira vez! FOi incrível, ainda tomamos uma açaí delicioso juntos.",
-    image: null,
+      "Aquele dia na hamburgueria em Irajá é a prova viva de que a nossa história é cheia de momentos aleatórios e inesquecíveis. Fomos até lá e, no fim das contas, ficamos só na batata frita! A gente riu tanto que o hambúrguer nem fez falta. São essas pequenas loucuras diárias que tornam o nosso relacionamento tão leve e divertido. Não importa o que a gente faça, desde que eu esteja com você.",
+    image: "/imgs/acai.jpeg",
   },
   {
     emoji: "💕",
-    date: "12/06/2026",
-    title: "Dia dos namorados",
+    date: "05/05/2026",
+    title: "Planetario",
     description:
-      "Passamos nosso primeiro dia dos namorados juntos! Amei seus presentes e guardo sua cartinha com muito carinho.",
-    image: null,
+      "Aquele nosso passeio no planetário foi simplesmente mágico. Olhar para todas aquelas estrelas, constelações e planetas só me fez ter uma certeza: o meu universo inteiro estava ali, de mãos dadas comigo. Enquanto a gente viajava pelas galáxias projetadas no teto, eu só conseguia pensar no quão sortudo eu sou por ter a estrela mais brilhante de todas iluminando a minha vida.",
+    image: "/imgs/plametario.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "9/05/2026",
+    title: "Quinta da boa vista",
+    description:
+      "O nosso date duplo no mesmo dia! Tem coisa melhor do que um piquenique a dois, cheio de chamego e risadas na Quinta da Boa Vista? Tem sim: emendar esse passeio direto na Feira de São Cristóvão para comer um baião de dois perfeito! Aquele dia foi a prova de que a gente sabe aproveitar a vida juntos, seja curtindo a calmaria do parque ou se acabando na comida nordestina. Com você, até o roteiro mais inusitado vira a melhor lembrança.",
+    image: "/imgs/quinta.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "28/05/2026",
+    title: "Urca",
+    description:
+      "O nosso fim de tarde na Urca foi daqueles momentos que a gente guarda para sempre. Ficar ali, lado a lado, vendo o pôr do sol dar lugar à noite, trouxe uma paz gigante para o meu coração. Naquele instante, não precisávamos de mais nada: só a brisa, aquela vista incrível do Rio e a sua companhia, que faz qualquer lugar do mundo se tornar o meu favorito.",
+    image: "/imgs/urca.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "31/05/2026",
+    title: "Feira da Gloria",
+    description:
+      "A Feira da Glória sempre vai ter um gostinho especial nas nossas lembranças. Foi lá que nos acabamos naquele sanduíche de alcatra com queijo no pão de alho e também dividimos o nosso primeiríssimo burrito! São esses momentos leves, cheios de comilança e sorrisos compartilhados, que mostram como a gente se diverte juntos em qualquer situação. Colecionar essas pequenas primeiras vezes ao seu lado é, sem dúvida, o meu passatempo favorito.",
+    image: "/imgs/feira.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "04/06/2026",
+    title: "Outback",
+    description:
+      "Quando te levei ao Outback pela primeira vez, o meu maior objetivo era simples: te impressionar e proporcionar uma experiência inesquecível para nós dois. Eu queria que cada detalhe fosse especial, porque você merece o mundo inteiro. Entre as nossas risadas, o jantar e os brindes, eu tive a certeza de que cada segundo ao seu lado é um presente. Ver você toda feliz e sorrindo para mim naquela mesa foi, de longe, a melhor parte da noite.",
+    image: "/imgs/outback.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "06/06/2026",
+    title: "Cafe do forte",
+    description:
+      "Aquele dia no Café do Forte foi a verdadeira definição de um date perfeito. Nós dois juntos, comidinhas deliciosas e aquela vista maravilhosa e icônica de Copacabana de pano de fundo. É engraçado como a imensidão do mar e a beleza do Forte eram incríveis, mas eu mal conseguia desviar o olhar de você. Foi um daqueles passeios que enchem o coração de paz e deixam a nossa história ainda mais especial.",
+    image: "/imgs/forte.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "12/06/2026",
+    title: "nosso primeira dia dos namorados",
+    description:
+      "O nosso primeiro Dia dos Namorados não poderia ter sido em um lugar mais charmoso. A Ilha da Gigóia, com aquele clima aconchegante, a travessia de barco e a calmaria no meio do Rio de Janeiro, foi o cenário perfeito para celebrar o nosso amor. Lembrar daquele dia é sentir de novo a emoção e a alegria de ter passado o nosso primeiro 12 de junho juntos, criando memórias que eu vou guardar no coração para sempre.",
+    image: "/imgs/namorado.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "09/07/2026",
+    title: "Teatro municipal e afins",
+    description:
+      "Explorar o Theatro Municipal e toda aquela região da Cinelândia de mãos dadas com você foi uma experiência maravilhosa. É bom demais poder turistar pela nossa própria cidade, admirar a história de cada cantinho e transformar uma caminhada pelo centro em um verdadeiro encontro romântico. A beleza daquele lugar é imensa, mas a alegria e a paz que eu sinto passeando ao seu lado conseguem ser ainda maiores.",
+    image: "/imgs/teatro.jpeg",
+  },
+  {
+    emoji: "❤️",
+    date: "18/07/2026",
+    title: "Ilha de paqueta",
+    description:
+      "Andamos horrores na Ilha de Paquetá, mas cada passo valeu a pena! Aquele clima charmoso e tranquilo fez a gente se conectar de uma forma linda e super profunda, caminhando de mãos dadas e dividindo os sonhos. E para recompensar toda aquela nossa caminhada, tivemos um almoço perfeito onde eu provei parmegiana pela primeira vez! Descobrir novos lugares, experimentar sabores novos e sentir o nosso amor crescendo a cada passeio é o que faz a nossa história ser tão especial.",
+    image: "/imgs/paqueta.jpeg",
   },
   {
     emoji: "💍",
-    date: "26/07/2026",
-    title: "O grande dia do pedido",
+    date: "22/08/2026",
+    title: "Pedido de Namoro Oficial",
     description:
-      "O dia do seu sim! O melhor domingo da minha vida e o dia em que fui o homem mais feliz do mundo!",
-    image: null,
+      "Mesmo depois de todos os nossos dates incríveis, das risadas e da nossa sintonia absurda, meu coração disparou no dia do pedido oficial. Eu queria que tudo fosse perfeito, porque a mulher incrível que você é não merece nada menos que o mundo. Quando finalmente fiz a pergunta e vi o seu sorriso ao dizer sim, senti uma alegria gigantesca tomar conta de mim. Aquele dia marcou o início oficial de nós dois e sacramentou a certeza de que encontrei o grande amor da minha vida.",
+    image: "/imgs/3.png",
   },
+  
+  
+  
 ];
 
 const HERO_PHOTOS = [
-  "/imgs/1.jpeg",
-  "/imgs/2.jpeg",
-  "/imgs/3.jpeg",
-  "/imgs/4.jpeg",
-  "/imgs/5.jpeg",
-  "/imgs/6.jpeg",
-  "/imgs/7.jpeg",
-  "/imgs/8.jpeg",
+  "/imgs/1.1.jpeg",
+  "/imgs/1.2.jpeg",
+  "/imgs/1.3.jpeg",
+  "/imgs/1.4.jpeg",
+  "/imgs/1.5.jpeg",
+  "/imgs/1.6.jpeg",
+  "/imgs/1.7.jpeg",
+  "/imgs/1.8.jpeg",
+  "/imgs/1.9.jpeg",
+  "/imgs/2.0.jpeg",
+  "/imgs/2.1.jpeg",
+  "/imgs/2.2.jpeg",
+  "/imgs/2.3.jpeg",
+  "/imgs/2.4.jpeg",
+  "/imgs/2.5.jpeg",
+  "/imgs/2.6.jpeg",
+  "/imgs/2.7.jpeg",
+  "/imgs/2.8.jpeg",
 ];
 /*
   ╔══════════════════════════════════════════════════╗
@@ -136,7 +213,7 @@ export default function Home() {
               animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-              1 mês da gente! 💍
+              Nosso dia 22/08 💍
             </motion.p>
           </Reveal>
           <Reveal variant="scaleUp" delay={0.2} duration={1}>
@@ -146,20 +223,20 @@ export default function Home() {
                 animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
               >
-                Para a razão do meu viver!
+                Para a razão do meu viver, Minha princesa!
               </motion.span>
             </h1>
           </Reveal>
 
           <Reveal variant="blur" delay={0.5}>
             <p className="mx-auto mt-4 max-w-sm font-signature text-xl text-plum/70 sm:mt-6 sm:max-w-lg sm:text-2xl md:text-3xl">
-              26/07/2026
+              22/08/2026
             </p>
           </Reveal>
 
           <Reveal variant="fadeUp" delay={0.7}>
             <p className="mx-auto mt-4 max-w-xs text-xs leading-relaxed text-white/50 sm:mt-6 sm:max-w-md sm:text-sm">
-            Que esse nosso dia seja repleto de amor! ❤️
+            Que nossos dias 22´s seja repleto de amor! ❤️
             </p>
           </Reveal>
 
@@ -382,7 +459,7 @@ export default function Home() {
                   paddingBottom: 4,
                 }}
               >
-                Gustavo 💍 Leticia
+                Bruno 💍 Isabella
               </motion.span>
             </h2>
           </Reveal>
@@ -422,7 +499,7 @@ export default function Home() {
                 ✦
               </motion.span>
               <span className="text-xs tracking-widest text-white/40 uppercase sm:text-sm">
-                1 mês de namoro
+                Nossos melhores momentos juntos
               </span>
               <motion.span
                 className="text-sm text-saffron/70 sm:text-base"
@@ -519,25 +596,27 @@ export default function Home() {
             </Reveal>
             <Reveal variant="fadeUp" delay={0.2}>
               <div className="mt-4 space-y-3 text-xs leading-relaxed text-white/60 sm:mt-6 sm:space-y-4 sm:text-sm">
-                <p>
+                <p  className="text-white/80">
                   Obrigado por ser a melhor namorada do mundo! ❤️❤️❤️
                 </p>
-                <p>
-                  Sou grato a Deus por ter uma companheira incrível como você ao meu lado,
-                  é uma horna poder te chamar de amor ou de vida!
+                <p  className="text-white/80">
+                 Meu amor, quando paro para pensar em tudo o que já vivemos e em tudo o que ainda vamos construir, meu coração simplesmente transborda de gratidão. Este espaço foi criado não apenas para guardar as nossas melhores memórias, mas para celebrar todos os dias a sorte imensa que é dividir a jornada da vida com você.
                 </p>
-                <p>
-                  Você é realmente a perfeição! Uma garota linda em todos os aspectos, te admiro muito.
+                <p  className="text-white/80">
+                  Deus foi incrivelmente generoso quando cruzou os nossos caminhos. Desde o primeiro momento, você trouxe uma luz diferente para os meus dias e me ensinou o verdadeiro significado de companheirismo. Não se trata apenas de ter alguém caminhando ao lado, mas de ter uma parceira incrível que me apoia, que me compreende no olhar e que me faz querer ser a minha melhor versão a cada amanhecer. É uma honra imensurável poder acordar e te chamar de minha namorada, minha vida e meu porto seguro.
                 </p>
                 <p className="text-white/80">
-                  Você é o grande amor da minha vida! ❤️❤️❤️
+                  Eu te admiro de uma forma que as palavras muitas vezes não dão conta de explicar. Você é, de fato, a perfeição em todos os aspectos — uma mulher deslumbrante por fora, mas dona de uma essência e de um coração ainda mais lindos por dentro. Cada sorriso seu ilumina o meu mundo, e cada obstáculo que superamos juntos me dá a certeza de que nascemos para pertencer um ao outro. Você é o grande amor da minha vida! ❤️❤️❤️
+                </p>
+                <p  className="text-white/80">
+                  Quero que este site seja um reflexo do nosso amor: um lugar cheio de alegria, de cumplicidade e da nossa história. Que fique registrado aqui para quem quiser ver o quanto eu sou grato por cada segundo ao seu lado. Obrigado por ter me escolhido, por nunca soltar a minha mão e por transformar a minha realidade em um sonho diário.
                 </p>
               </div>
             </Reveal>
             <Reveal variant="fadeUp" delay={0.4}>
-              <p className="mt-6 font-signature text-xl text-saffron/60 sm:mt-8 sm:text-2xl">
-                Feliz dia, minha princesa! ❤️🥰
-              </p>
+                <p className="mt-6 font-signature text-xl text-saffron/60 sm:mt-8 sm:text-2xl">
+                  você é e sempre será o grande amor da minha vida e a minha eterna princesa. 💖 
+                </p>
             </Reveal>
           </motion.div>
         </div>
@@ -547,11 +626,11 @@ export default function Home() {
       <footer className="relative border-t border-white/5 py-12 text-center sm:py-16">
         <Reveal variant="fadeUp">
           <motion.p
-            className="font-signature text-xl text-plum/40 sm:text-2xl"
+            className="font-signature text-xl text-plum/40 sm:text-2xl text-white/80"
             whileInView={{ scale: [0.9, 1] }}
             viewport={{ once: true }}
           >
-            Feito para a minha lelê {" "}
+            Feito para a minha bebela {" "}
             <motion.span
               className="inline-block text-tomato/60"
               animate={{ scale: [1, 1.3, 1] }}
@@ -561,8 +640,8 @@ export default function Home() {
             </motion.span>
             {" "}
           </motion.p>
-          <p className="mt-3 text-xs text-white/30 sm:mt-4 sm:text-sm">
-            EU TE AMOOO MUITOOOOO 💍❤️💍
+          <p className="mt-3 text-xs text-white/30 sm:mt-4 sm:text-sm text-white/80">
+            EU TE AMO MUITO 💍❤️💍
           </p>
           <p className="mt-2 text-[10px] text-white/15 sm:text-xs">
           </p>

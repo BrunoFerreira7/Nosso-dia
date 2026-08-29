@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
   ║  ?v= in the URL).                                ║
   ╚══════════════════════════════════════════════════╝
 */
-const VIDEO_ID = "sz4YaMr1rlo";
+const VIDEO_ID = "A42ERJlitLE";
 
 declare global {
   interface Window {
