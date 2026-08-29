@@ -155,8 +155,8 @@ const HERO_PHOTOS = [
   "/imgs/2.4.jpeg",
   "/imgs/2.5.jpeg",
   "/imgs/2.6.jpeg",
-  "/imgs/2.7.jpeg",
-  "/imgs/2.8.jpeg",
+  "/imgs/2.7.png",
+  "/imgs/2.8.png",
 ];
 /*
   ╔══════════════════════════════════════════════════╗
